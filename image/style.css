@@ -1,0 +1,11 @@
+
+body{background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/1987871-abstrato-preto-listras-diagonal-fundo-gratis-vetor.jpg);}
+
+.container{background-color: rgb(246, 236, 224); border-radius: 1.5em;
+    height: 18em;
+    margin: 9em 24em;
+}
+.box{margin: 1em;
+    padding-top: 0.2em;
+}
+h2{margin: 0.7em;}
