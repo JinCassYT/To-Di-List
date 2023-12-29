@@ -2,10 +2,53 @@
 body{background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t2/1987871-abstrato-preto-listras-diagonal-fundo-gratis-vetor.jpg);}
 
 .container{background-color: rgb(246, 236, 224); border-radius: 1.5em;
-    height: 18em;
+    height: 30em;
     margin: 9em 24em;
 }
-.box{margin: 1em;
+.box{margin: 2em;
     padding-top: 0.2em;
 }
+.pesquisa{margin: 1em;
+    background-color: #ffffff;
+    padding: 0px 1px 2px 5px;
+    border-radius: 1em;
+    border: 0.1em solid rgb(248, 243, 243);
+    width: 17.5em;
+    font-family:Times New Roman;
+
+}
 h2{margin: 0.7em;}
+
+input{border: none;}
+button{
+    box-shadow: 5px 5px 12px -2px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:15px;
+	border:5px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:17px;
+	font-weight:bold;
+	padding:7px 10px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #810e05;
+}
+button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+button:active {
+	position:relative;
+	top:1px; 
+
+    }
+    ul li{list-style:circle;
+        font-size: 17px;
+        padding: 5px;
+        user-select: none;
+        cursor: pointer;
+      
+    }
